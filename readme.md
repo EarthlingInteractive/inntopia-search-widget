@@ -4,7 +4,7 @@ Refactored inntopia search widget to use Bootstrap 3 and inject it's own jquery 
 
 Blatantly Stolen from: https://aeeb40960f2325f91cfc-640799dcbea6c8f76886d4f85a8094f8.ssl.cf1.rackcdn.com/responsive-commerce-widget.html
 
-Enjoy!
+Demo: https://earthlinginteractive.github.io/inntopia-search-widget/index.html
 
 ## Usage
 
@@ -34,7 +34,7 @@ Add the following to your html body:
 		theme: 'smoothness' //jquery ui theme to use
 	};
 </script>
-<script src="searchwidget.js" type="text/javascript"></script>
+<script src="searchWidget.js" type="text/javascript"></script>
 ```
 
 And

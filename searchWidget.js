@@ -58,8 +58,7 @@ $(document).ready(function () {
 	var liStyle;
 	if (inntopiaVariables.widgetLayout === 'vertical') {
 		liStyle = 'unstyled';
-	}
-	else {
+	} else {
 		liStyle = 'form-inline';
 	}
 
