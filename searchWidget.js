@@ -1,3 +1,8 @@
+/*! inntopia-search-widget - v1.0.0 - 2019-06-20
+* https://github.com/EarthlingInteractive/inntopia-search-widget
+* Requires: Bootstrap 3 and Jquery 1.9.1+ */
+
+
 function injectScript(url, onLoad, onError) {
 	if (document.querySelector('script[src="' + url + '"]')) {
 		if (onLoad) {
@@ -137,7 +142,7 @@ $(document).ready(function () {
 				inntopiaSearchURL = 'http://' + inntopiaVariables.domain + '/ecomm/listings/supplierdetail/' + inntopiaVariables.salesId + '/' + inntopiaVariables.language + '/?supplierid=' + inntopiaVariables.supplierId + '&arrivalDate=' + thisArrivalDate + '&departureDate=' + thisDepartureDate + '&adultcount=' + thisAdultCount + '&childcount=' + thisChildCount;
 			}
 			else if (inntopiaVariables.widgetType === 4) {
-				inntopiaSearchURL = 'http://' + inntopiaVariables.domain + '/products/lodging?arrivalDate=' + thisArrivalDate + '&departureDate=' + thisDepartureDate + '&adultcount=' + thisAdultCount + '&childCount=' + thisChildCount + '#Availability';
+				inntopiaSearchURL = 'http://' + inntopiaVariables.domain + '/products/lodging?arrivalDate=' + thisArrivalDate + '&departureDate=' + thisDepartureDate + '&adultcount=' + thisAdultCount + '&childcount=' + thisChildCount;
 			}
 
 			window.location = inntopiaSearchURL;
